@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17902615812",
+    "project_id": "hyup-chat",
+    "storage_bucket": "hyup-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17902615812:android:690bc4552edd4ced036451",
+        "android_client_info": {
+          "package_name": "com.example.chatting_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjlE7hMoTquyZYSla9hyFDCc9DtY361bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
