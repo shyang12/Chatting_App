@@ -36,33 +36,16 @@
 │   └── Palette.dart
 ├── screens
 │   ├── main_screen.dart
-├── enums
-│   ├── delivery_status.dart
-│   └── payment_status.dart
+│   └── chat_screen.dart
 ```
 
 ## 3. Firebase   
 ### 3.1 Firestore Database
 ```bash
-├── orders
-│    ├── buyerEmail
-│    ├── buyerName
-│    ├── buyerPhone
-│    ├── deliveryStatus
-│    ├── orderDate
-│    ├── orderNo
-│    ├── paymentMethod
-│    ├── paymentStatus
-│    ├── productNo
-│    ├── quantity
-│    ├── receiverAddress1
-│    ├── receiverAddress2
-│    ├── receiverName
-│    ├── receiverPhone
-│    ├── receiverZip
-│    ├── totalPrice
-│    ├── unitPrice
-│    └── userPwd
+├── chats
+│    └── message
+│    │    ├── buyerName
+│    │    └── userPwd
 ├── products
 │    ├── price
 │    ├── productImageUrl
