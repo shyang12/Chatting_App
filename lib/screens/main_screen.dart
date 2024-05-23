@@ -5,6 +5,7 @@ import 'package:chatting_app/config/Palette.dart';
 import 'package:flutter/widgets.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class LoginSignupScreen extends StatefulWidget {
   const LoginSignupScreen({Key? key}) : super(key: key);
@@ -456,11 +457,17 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
                               email: userEmail,
                               password: userPassword,
                             );
+                            
+                            await FirebaseFirestore.instance.collection('user').doc(newUser.user!.uid)
+                            .set({
+                              'userName' : userName,
+                              'email' : userEmail,
+                            });
         
                             if (newUser.user != null) {
-                              Navigator.push(context, MaterialPageRoute(builder: (context) {
+                                Navigator.push(context, MaterialPageRoute(builder: (context) {
                                 return ChatScreen();
-                                }),
+                                },),
                               );
                               setState(() {
                                 showSpimmer = false;
@@ -487,12 +494,12 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
                               password: userPassword,
                             );
                             if (newUser.user != null) {
-                              Navigator.push(
+                            /* Navigator.push(
                                 context, MaterialPageRoute(builder: (context) {
                                 return ChatScreen();
                                 },
                                 ),
-                              );
+                              ); */
                             }
                           } catch(e) {
                             print(e);
