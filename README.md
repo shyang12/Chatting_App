@@ -3,7 +3,7 @@
  
  - 안드로이드 스튜디오에서 Flutter(dart)를 기반으로 채팅 앱을 구현하는 프로젝트
 
-`Stream` `Firebase` `Authentication` `Firestore Database` `flutter_chat_bubble` `modal_progress_hud` `image_picker`
+`Stream` `Firebase` `Authentication` `Firestore Database` `Storage` `flutter_chat_bubble` `modal_progress_hud` `image_picker`
 
 ## 1. Co-Development Environment   
 ### 1. 1 Environments
