@@ -77,7 +77,7 @@
 ## 4. Result
 - 로그인 화면 (Login, Signup)
 
-![로그인](https://github.com/shyang12/chatting_app/assets/85710913/9fcafca8-9c02-41ac-8a97-d9c353431048)  ![로그인 사인업](https://github.com/shyang12/chatting_app/assets/85710913/41c4e299-c21e-4645-b956-6263e652bee3)
+![로그인](https://github.com/shyang12/chatting_app/assets/85710913/4c280c4a-c592-4a80-b1fc-f853e65ac773)  ![로그인 사인업](https://github.com/shyang12/chatting_app/assets/85710913/41c4e299-c21e-4645-b956-6263e652bee3)
 
 
 - 회원가입에 이미지 저장 및 사진 촬영
