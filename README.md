@@ -50,7 +50,9 @@
 ```
 
 ## 3. Firebase   
-### 3.1 Firestore Database
+### 3.1 Authentication
+
+### 3.2 Firestore Database
 ```bash
 ├── chats
 │    └── message
@@ -58,13 +60,32 @@
 │    ├── text
 │    ├── time
 │    ├── userID
+│    ├── userImage
 │    └── userName
 ├── user
 │    ├── email
+│    ├── picked_image
 │    └── userName
 ```
 
-## 4. Result
-- 로그인 화면
+### 3.3 Firebase Storage
+```bash
+├── picked_images
+│    └── ~~~.PNG
+```
 
-![로그인](https://github.com/shyang12/chatting_app/assets/85710913/9fcafca8-9c02-41ac-8a97-d9c353431048)
+## 4. Result
+- 로그인 화면 (Login, Signup)
+
+![로그인](https://github.com/shyang12/chatting_app/assets/85710913/9fcafca8-9c02-41ac-8a97-d9c353431048)  ![로그인 사인업](https://github.com/shyang12/chatting_app/assets/85710913/41c4e299-c21e-4645-b956-6263e652bee3)
+
+
+- 회원가입에 이미지 저장 및 사진 촬영
+
+![이미지 저장](https://github.com/shyang12/chatting_app/assets/85710913/1bb3db6d-7e0b-4f07-81db-e6fd5094a9e0)  ![사진촬영](https://github.com/shyang12/chatting_app/assets/85710913/d91df66f-3794-48c3-98e0-9968c806b78b)
+
+
+- 채팅방 채팅 내용
+
+![채팅](https://github.com/shyang12/chatting_app/assets/85710913/193d97d4-5380-4177-8002-72cf68924483)  ![채팅방 2](https://github.com/shyang12/chatting_app/assets/85710913/b7bb62f1-66b9-45d0-9f03-ede868a19d8e)
+
