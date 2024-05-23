@@ -3,7 +3,7 @@
  
  - 안드로이드 스튜디오에서 Flutter(dart)를 기반으로 채팅 앱을 구현하는 프로젝트
 
-`Stream` `Firebase` `Authentication` `Firestore Database`
+`Stream` `Firebase` `Authentication` `Firestore Database` flutter_chat_bubble` `modal_progress_hud`
 
 ## 1. Co-Development Environment   
 ### 1. 1 Environments
@@ -27,7 +27,7 @@
 
 - 로그인 페이지 Signup 옆 프로필 사진 지정 가능한 위젯
 - ChatBubble을 사용한 채팅창 UI 개선 -> `삼항 연산자`를 통해 내 채팅, 상대방 채팅 (왼쪽, 오른쪽) UI 구성
-- 정렬 `Descending`을 통해 TimeStamp순으로 채팅방 정렬
+- 정렬 `Descending`을 통해 `TimeStamp`순으로 채팅방 정렬
 - 내 채팅의 이름, 상대 채팅의 이름, 나와 상대방의 프로필 사진 UI 개선
   
 ## 2. Project Architecture   
