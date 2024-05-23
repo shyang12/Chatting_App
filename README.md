@@ -27,7 +27,7 @@
 
 - 로그인 페이지 Signup 옆 프로필 사진 지정 가능한 위젯  `Storage`
 - `Firebase 규칙` 수정을 통해 제 3자가 데이터를 수정, 조회, 생성하는 일을 방지
-- ChatBubble을 사용한 채팅창 UI 개선 -> `삼항 연산자`를 통해 내 채팅, 상대방 채팅 (왼쪽, 오른쪽) UI 구성 `Firestore Database` + 'Storage'
+- ChatBubble을 사용한 채팅창 UI 개선 -> `삼항 연산자`를 통해 내 채팅, 상대방 채팅 (왼쪽, 오른쪽) UI 구성 `Firestore Database` + `Storage`
 - 정렬 `Descending`을 통해 `TimeStamp`순으로 채팅방 정렬  `Firestore Database`
 - 내 채팅의 이름, 상대 채팅의 이름, 나와 상대방의 프로필 사진 UI 개선 `Storage`
   
