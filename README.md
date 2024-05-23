@@ -19,7 +19,7 @@
 - Window
 
 ### 1. 3 Implement
-- 로그인 페이지 Animated를 통해 사용자 친화적인 UI 제공 (Signin, Signup) -> `삼항 연산자`를 통해 Login과 Signup일때 UI 변환 -> `Authentication
+- 로그인 페이지 Animated를 통해 사용자 친화적인 UI 제공 (Signin, Signup) -> `삼항 연산자`를 통해 Login과 Signup일때 UI 변환 -> `Authentication`
 - 비동기 방식의 메소드
 - Stream과 파이어베이스
 
